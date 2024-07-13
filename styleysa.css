@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #808080;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+
+.backgound-image {
+    margin-top: 100px;
+    width: 100%;
+    border-bottom: solid #808080 20px;
+}
+
+.icon h2 {
+    text-align: center;
+    text-decoration: #000000;
+    font-size: 40px;
+    margin-left: 15px;
+    
+
+}
+
+.logo img {
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    margin-right: 60px;
+}
+
+
+nav li {
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+.icon li {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15%;
+    margin-bottom: 30px;
+    height: 170px;
+    width: 190px;
+    
+
+}
+
+
+.icon li:hover {
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Whatsapp{
+    display: block;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.icon ul{
+display: flex;
+justify-content: center;
+gap: 15px;
+}
